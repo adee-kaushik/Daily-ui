@@ -1,0 +1,97 @@
+body{
+    background:linear-gradient(black,rgb(27, 27, 27),rgb(30, 28, 28));
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+.logo{
+    height: 23vh;
+    width: 11vw;
+    border-radius: 50%;
+}
+.melodi{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+.melodi> h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+}
+.melodi>h1>p{
+    font-size: .3em;
+    color: #c9c0c0;
+}
+.signup{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background:linear-gradient(rgb(43, 42, 42),rgb(64, 63, 63));
+    width: 28vw;
+    height: 62vh;
+    border-radius: 6px;
+}
+button> img{
+    height: 3.2vh;
+    width: 1.7vw;
+    border-radius: 50%;
+}
+button :hover{
+    font-size:medium;
+    border-radius: 5px;
+}
+.btnn{
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+    gap: 5px;
+}
+
+label, input{
+    display: block;
+}
+input{
+    width: 70%;
+    padding-bottom: 7px;
+}
+label{
+    font-size: large;
+    padding-bottom: 3px;
+}
+.signup> h2, h3{
+    padding-left: 10px;
+}
+#submit {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    color: bisque;
+    background-color: #212222;
+    border: none;
+    border-radius: 10px;
+    height: 4vh;
+}
+form{
+    padding-left: 10px;
+    color: aliceblue;
+}
+form> p{
+    color: antiquewhite;
+}
+.declaration{
+    display: inline;
+    width: 15px;
+
+}
+.container{
+    height: 110vh;
+}
+span{
+    color: rgb(145, 145, 233);
+}
