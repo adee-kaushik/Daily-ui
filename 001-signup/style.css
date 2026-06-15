@@ -6,35 +6,40 @@ body{
     box-sizing: border-box;
 }
 .logo{
-    height: 23vh;
-    width: 11vw;
+    height: 160px;
+    width: 160px;
+
     border-radius: 50%;
 }
 .melodi{
     display: flex;
     justify-content: center;
-    gap: 3vw;
+    gap: 10px;
 }
 .melodi> h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 4em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color: #717c7c;
+    font-size: 60px;
 }
 .melodi>h1>p{
-    font-size: .3em;
+    font-size: 20px;
     color: #c9c0c0;
+}
+.signup > h2, h3{
+    color: #14b1b1;
 }
 .signup{
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     background:linear-gradient(rgb(43, 42, 42),rgb(64, 63, 63));
-    width: 28vw;
-    height: 62vh;
+    width: 350px;
+    height: 500px;
     border-radius: 6px;
 }
 button> img{
-    height: 3.2vh;
-    width: 1.7vw;
+    height: 18px;
+    width: 20px;
     border-radius: 50%;
 }
 button :hover{
@@ -47,7 +52,7 @@ button :hover{
     flex-direction: row;
     
     
-    gap: 5px;
+    gap: 7px;
 }
 
 label, input{
@@ -75,7 +80,7 @@ label{
     background-color: #212222;
     border: none;
     border-radius: 10px;
-    height: 4vh;
+    height: 40px;
 }
 form{
     padding-left: 10px;
@@ -90,8 +95,11 @@ form> p{
 
 }
 .container{
-    height: 110vh;
+    height: 770px;
 }
 span{
     color: rgb(145, 145, 233);
+}
+a{
+    color: aqua;
 }
